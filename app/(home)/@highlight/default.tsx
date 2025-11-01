@@ -1,3 +1,4 @@
+import Highlight from "./page";
 export default function Default() {
-  return null;
+  return <Highlight />;
 }
