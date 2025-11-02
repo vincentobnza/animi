@@ -1,5 +1,10 @@
 import React from "react";
+import Spotlight from "@/components/Spotlight";
 
 export default function page() {
-  return <div className="w-f">page</div>;
+  return (
+    <div className="min-h-screen">
+      <Spotlight />
+    </div>
+  );
 }
